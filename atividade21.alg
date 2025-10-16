@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função :
+algoritmo "ServiÃ§o militar"
+// FunÃ§Ã£o :LÃª nome, sexo, idade e saÃºde de vÃ¡rias pessoas e informa quem estÃ¡ apto ou nÃ£o para o serviÃ§o militar, mostrando os totais
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  nome, sexo, saude: caractere
    idade, total_aptos, total_inaptos, total_pessoas: inteiro
@@ -22,14 +22,14 @@ total_aptos <- 0
       escreval("Digite a idade: ")
       leia(idade)
 
-      escreval("Está com saúde boa? (S/N): ")
+      escreval("EstÃ¡ com saÃºde boa? (S/N): ")
       leia(saude)
 
       se (sexo = "M") e (idade >= 18) e (saude = "S") entao
-         escreval(nome, " está APTO para o serviço militar.")
+         escreval(nome, " estÃ¡ APTO para o serviÃ§o militar.")
          total_aptos <- total_aptos + 1
       senao
-         escreval(nome, " NÃO está apto para o serviço militar.")
+         escreval(nome, " NÃƒO estÃ¡ apto para o serviÃ§o militar.")
          total_inaptos <- total_inaptos + 1
       fimse
 
@@ -46,5 +46,6 @@ total_aptos <- 0
    escreval("Total inaptos: ", total_inaptos)
 
 
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
