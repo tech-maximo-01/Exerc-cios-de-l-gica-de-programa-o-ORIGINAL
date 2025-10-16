@@ -1,13 +1,13 @@
-algoritmo "semnome"
-// Função :
+algoritmo "MÃ©dia e situaÃ§Ã£o do aluno"
+// FunÃ§Ã£o :LÃª o nome e trÃªs notas de um aluno, calcula a mÃ©dia e mostra se estÃ¡ aprovado, reprovado ou em recuperaÃ§Ã£o
 // Autor :
 // Data : 30/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  nome: caractere
 n1, n2, n3, media: real
 inicio
-escreval("Sistema de médias")
+escreval("Sistema de mÃ©dias")
 escreva("Digite a primeira nota: ")
 leia(n1)
 escreva("Digite a segunda nota: ")
@@ -22,8 +22,9 @@ senao
    se media <= 5 entao
       escreval("Aluno reprovado!")
    senao
-      escreval("Aluno em recuperação...")
+      escreval("Aluno em recuperaÃ§Ã£o...")
    fimse
 fimse
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
