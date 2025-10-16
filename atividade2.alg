@@ -1,18 +1,18 @@
-algoritmo "semnome"
-// FunÁ„o :
+algoritmo "Opera√ß√µes b√°sicas"
+// Fun√ß√£o :Mostra a soma, subtra√ß√£o, multiplica√ß√£o e divis√£o de dois n√∫meros
 // Autor :
 // Data : 29/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 i, N, num, maior: inteiro
 inicio
  maior <- 0
 
-   escreva("Digite a quantidade de n˙meros (N): ")
+   escreva("Digite a quantidade de n√∫meros (N): ")
    leia(N)
 
    Para i de 1 ate N faca
-      escreva("Digite o ", i, "∫ n˙mero: ")
+      escreva("Digite o ", i, "¬∫ n√∫mero: ")
 
 
       Se num > maior entao
@@ -20,6 +20,7 @@ inicio
       FimSe
    FimPara
 
-   escreval("O maior n˙mero È: ", maior)
-// SeÁ„o de Comandos 
+   escreval("O maior n√∫mero √©: ", maior)
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
