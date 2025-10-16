@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// FunÁ„o :
+algoritmo "Tipo de tri√¢ngulo"
+// Fun√ß√£o :Verifica se tr√™s valores podem formar um tri√¢ngulo e identifica se √© equil√°tero, is√≥sceles ou escaleno
 // Autor :
 // Data : 14/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 a, b, c: inteiro
 inicio
@@ -14,17 +14,18 @@ escreva("Lado C: ")
 leia(c)
 se (a < b + c) e (b < a + c) e (c < a + b) entao
 se a = b e b = c entao
-escreval("Equil·tero")
+escreval("Equil√°tero")
       senao
 se a = b ou a = c ou b = c entao
-escreval("IsÛsceles")
+escreval("Is√≥sceles")
          senao
 escreval("Escaleno")
          fimse
       fimse
    senao
-escreval("N„o forma tri‚ngulo")
+escreval("N√£o forma tri√¢ngulo")
    fimse
 
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
