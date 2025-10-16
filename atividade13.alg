@@ -1,14 +1,15 @@
-algoritmo "semnome"
-// Função :
+algoritmo "NÃºmero maior que 10"
+// FunÃ§Ã£o :LÃª um nÃºmero e mostra uma mensagem se ele for maior que 10
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  num, quadrado: inteiro
 inicio
-escreva("Digite um número: ")
+escreva("Digite um nÃºmero: ")
 leia(num)
 quadrado <- num * num
-escreval("O quadrado de ", num, " é ", quadrado)
-// Seção de Comandos 
+escreval("O quadrado de ", num, " Ã© ", quadrado)
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
