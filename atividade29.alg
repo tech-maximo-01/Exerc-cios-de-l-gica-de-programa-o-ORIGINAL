@@ -1,12 +1,12 @@
-algoritmo "semnome"
-// Função :
+algoritmo "MÃªs correspondente"
+// FunÃ§Ã£o :Recebe o nÃºmero do mÃªs e mostra o nome correspondente (1 = Janeiro, 2 = Fevereiro, etc.). Valida nÃºmero invÃ¡lido
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  mes: inteiro
 inicio
- escreval("Digite o número do mês (1 a 12): ")
+ escreval("Digite o nÃºmero do mÃªs (1 a 12): ")
    leia(mes)
 
    escolha mes
@@ -15,7 +15,7 @@ inicio
       caso 2
          escreval("Fevereiro")
       caso 3
-         escreval("Março")
+         escreval("MarÃ§o")
       caso 4
          escreval("Abril")
       caso 5
@@ -35,7 +35,8 @@ inicio
       caso 12
          escreval("Dezembro")
       outrocaso
-         escreval("Mês inválido!")
+         escreval("MÃªs invÃ¡lido!")
    fimescolha
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
