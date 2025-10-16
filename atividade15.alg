@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função :
+algoritmo "NÃºmero entre 100 e 200"
+// FunÃ§Ã£o :LÃª um nÃºmero e diz se ele estÃ¡ dentro do intervalo de 100 a 200
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 i, ano, verde, antes1990, gol: inteiro
 cor, modelo: caractere
@@ -13,7 +13,7 @@ gol <- 0
 para i de 1 ate 1000 faca
 escreva("Digite o modelo do carro: ")
 leia(modelo)
-escreva("Digite o ano de fabricação: ")
+escreva("Digite o ano de fabricaÃ§Ã£o: ")
 leia(ano)
 escreva("Digite a cor do carro: ")
 leia(cor)
@@ -30,5 +30,6 @@ gol <- gol + 1
 escreval("Quantidade de carros verdes: ", verde)
 escreval("Quantidade de carros antes de 1990: ", antes1990)
 escreval("Quantidade de carros modelo GOL: ", gol)
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
