@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// FunÁ„o :
+algoritmo "Desconto de carros"
+// Fun√ß√£o :Calcula o desconto no pre√ßo de carros conforme o ano (12% at√© 2000, 7% acima) e permite repetir at√© o usu√°rio parar.
 // Autor :
 // Data : 13/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 preco_custo, preco_venda, soma_custo, soma_venda: real
 i: inteiro
@@ -12,16 +12,16 @@ soma_venda <- 0
 
    para i de 1 ate 40 faca
       escreval("Produto ", i)
-      escreval("Digite o preÁo de custo: ")
+      escreval("Digite o pre√ßo de custo: ")
       leia(preco_custo)
-      escreval("Digite o preÁo de venda: ")
+      escreval("Digite o pre√ßo de venda: ")
       leia(preco_venda)
 
       se preco_venda > preco_custo entao
          escreval("Resultado: Lucro")
       senao
          se preco_venda < preco_custo entao
-            escreval("Resultado: PrejuÌzo")
+            escreval("Resultado: Preju√≠zo")
          senao
             escreval("Resultado: Empate")
          fimse
@@ -32,7 +32,8 @@ soma_venda <- 0
       escreval()
    fimpara
 
-   escreval("MÈdia do preÁo de custo: ", (soma_custo / 40):0:2)
-   escreval("MÈdia do preÁo de venda: ", (soma_venda / 40):0:2)
-// SeÁ„o de Comandos 
+   escreval("M√©dia do pre√ßo de custo: ", (soma_custo / 40):0:2)
+   escreval("M√©dia do pre√ßo de venda: ", (soma_venda / 40):0:2)
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
