@@ -1,26 +1,27 @@
-algoritmo "semnome"
-// Função :
+algoritmo "NÃºmero fora ou igual"
+// FunÃ§Ã£o :LÃª um nÃºmero e mostra uma mensagem se for maior que 80, menor que 25 ou igual a 40
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  num: inteiro
 inicio
- escreval("Digite um número: ")
+ escreval("Digite um nÃºmero: ")
    leia(num)
 
    se (num > 80) entao
-      escreval("O número é maior que 80.")
+      escreval("O nÃºmero Ã© maior que 80.")
    senao
       se (num < 25) entao
-         escreval("O número é menor que 25.")
+         escreval("O nÃºmero Ã© menor que 25.")
       senao
          se (num = 40) entao
-            escreval("O número é igual a 40.")
+            escreval("O nÃºmero Ã© igual a 40.")
          senao
-            escreval("O número não atende a nenhuma das condições.")
+            escreval("O nÃºmero nÃ£o atende a nenhuma das condiÃ§Ãµes.")
          fimse
       fimse
    fimse
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
