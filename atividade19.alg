@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Sexo das pessoas"
+// FunÃ§Ã£o :LÃª o nome e o sexo de 56 pessoas e mostra se Ã© homem ou mulher, alÃ©m do total de cada um
 // Autor :
 // Data : 30/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nome, sexo: caractere
 x, h, m: inteiro
@@ -19,8 +19,9 @@ h <- h + 1
 caso "M"
 m <- m + 1
 outrocaso
-escreval("Sexo só pode ser H ou M!")
+escreval("Sexo sÃ³ pode ser H ou M!")
 fimescolha
 fimpara
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
