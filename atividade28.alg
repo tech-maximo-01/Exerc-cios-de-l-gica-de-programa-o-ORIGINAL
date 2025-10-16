@@ -1,24 +1,24 @@
-algoritmo "semnome"
-// Fun��o :
+algoritmo ". Reajuste salarial:"
+// Função :Reajusta o salário de funcionários de acordo com faixas salariais e mostra o novo salário e o aumento total da empresa
 // Autor :
 // Data : 13/10/2025
-// Se��o de Declara��es 
+// Seção de Declarações 
 var
 nome: caractere
    salario, salario_minimo, reajuste, novo_salario, total_aumento: real
    i: inteiro
 inicio
- escreval("Digite o valor do sal�rio m�nimo: ")
+ escreval("Digite o valor do salário mínimo: ")
    leia(salario_minimo)
 
    total_aumento <- 0
 
    para i de 1 ate 584 faca
       escreval()
-      escreval("Funcion�rio ", i)
+      escreval("Funcionário ", i)
       escreval("Digite o nome: ")
       leia(nome)
-      escreval("Digite o sal�rio atual: R$ ")
+      escreval("Digite o salário atual: R$ ")
       leia(salario)
 
       se (salario < (3 * salario_minimo)) entao
@@ -40,10 +40,11 @@ inicio
 
       escreval("Nome: ", nome)
       escreval("Reajuste: R$ ", reajuste:0:2)
-      escreval("Novo sal�rio: R$ ", novo_salario:0:2)
+      escreval("Novo salário: R$ ", novo_salario:0:2)
    fimpara
 
    escreval()
    escreval("Total de aumento na folha de pagamento: R$ ", total_aumento:0:2)
-// Se��o de Comandos 
+// Seção de Comandos 
 fimalgoritmo
+
