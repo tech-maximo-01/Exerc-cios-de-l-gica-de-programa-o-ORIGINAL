@@ -1,21 +1,22 @@
-algoritmo "semnome"
-// Função :
+algoritmo "ConversÃ£o de temperatura"
+// FunÃ§Ã£o : Converte Celsius para Fahrenheit
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  num: inteiro
 inicio
-escreva("Digite um número: ")
+escreva("Digite um nÃºmero: ")
 leia(num)
 Se num < 10 entao
 Se num % 2 = 0 entao
-escreval("Número par menor que Dez")
+escreval("NÃºmero par menor que Dez")
 Senao
-escreval("Número ímpar menor que Dez")
+escreval("NÃºmero Ã­mpar menor que Dez")
 FimSe
 Senao
-escreval("Número fora do Intervalo")
+escreval("NÃºmero fora do Intervalo")
 FimSe
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
