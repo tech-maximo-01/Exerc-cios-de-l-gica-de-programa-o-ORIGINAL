@@ -1,14 +1,14 @@
-algoritmo "semnome"
-// Função :
+algoritmo "NÃºmeros positivos, negativos ou zero"
+// FunÃ§Ã£o :LÃª vÃ¡rios nÃºmeros e informa se cada um Ã© positivo, negativo ou igual a zero
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 num: real
 resp: caractere
 inicio
 repita
-escreval("Digite um número: ")
+escreval("Digite um nÃºmero: ")
       leia(num)
 
 se (num > 0) entao
@@ -25,5 +25,6 @@ escreval("Zero")
       escreval("Deseja continuar? (S/N)")
       leia(resp)
    ate (resp = "N") ou (resp = "n")
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
