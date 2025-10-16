@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Troca de valores"
+// FunÃ§Ã£o :Inverte os valores das variÃ¡veis A e B
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  A, B, C: inteiro
 
@@ -16,6 +16,7 @@ C <- A + B
 Senao
 C <- A * B
 FimSe
-escreval("O valor de C é: ", C)
-// Seção de Comandos 
+escreval("O valor de C Ã©: ", C)
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
