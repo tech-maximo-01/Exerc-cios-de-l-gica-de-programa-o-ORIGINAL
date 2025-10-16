@@ -1,18 +1,18 @@
-algoritmo "semnome"
-// Função :
+algoritmo "OperaÃ§Ã£o aritmÃ©tica"
+// FunÃ§Ã£o :LÃª dois nÃºmeros e um operador (+, -, *, /). Executa a operaÃ§Ã£o indicada e trata divisÃ£o por zero
 // Autor :
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
    A, B: real
    C: caractere
 
 inicio
-escreva("Digite o primeiro número: ")
+escreva("Digite o primeiro nÃºmero: ")
 leia(A)
-escreva("Digite o segundo número: ")
+escreva("Digite o segundo nÃºmero: ")
 leia(B)
-escreva("Digite a operação desejada (+ - / *): ")
+escreva("Digite a operaÃ§Ã£o desejada (+ - / *): ")
 leia(C)
        escolha C
 caso "+"
@@ -23,12 +23,13 @@ caso "*"                                                  =
         escreval("A*B =",A*B)
 caso "/"
 se B = 0 entao
-escreval("Erro, esse número não pode ser dividido por 0")
+escreval("Erro, esse nÃºmero nÃ£o pode ser dividido por 0")
         senao
 escreval("A/B =",A/B)
         fimse
 outrocaso
-escreval(" não foi definido!")
+escreval(" nÃ£o foi definido!")
 fimescolha
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
