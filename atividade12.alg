@@ -1,16 +1,17 @@
-algoritmo "semnome"
-// FunÁ„o :
+algoritmo "Custo do carro"
+// Fun√ß√£o :Calcula o pre√ßo final de um carro com impostos e taxa do distribuidor
 // Autor :
 // Data : 29/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 distancia, combustivel, consumoMedio: real
 inicio
-escreva("Digite a dist‚ncia total percorrida (km): ")
+escreva("Digite a dist√¢ncia total percorrida (km): ")
 leia(distancia)
-escreva("Digite o total de combustÌvel gasto (litros): ")
+escreva("Digite o total de combust√≠vel gasto (litros): ")
 leia(combustivel)
 consumoMedio <- distancia / combustivel
-escreval("O consumo mÈdio do automÛvel È: ", consumoMedio:0:2, " km/l")
-// SeÁ„o de Comandos 
+escreval("O consumo m√©dio do autom√≥vel √©: ", consumoMedio:0:2, " km/l")
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
