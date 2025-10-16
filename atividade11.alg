@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// FunÁ„o :
+algoritmo "Valor de venda"
+// Fun√ß√£o :Calcula o pre√ßo de venda com base no custo e no percentual de acr√©scimo
 // Autor :
 // Data : 29/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
  A, B, temp: inteiro
 inicio
@@ -13,8 +13,9 @@ leia(B)
 temp <- A
 A <- B
 B <- temp
-escreval("ApÛs a troca:")
+escreval("Ap√≥s a troca:")
 escreval("A = ", A)
 escreval("B = ", B)
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
