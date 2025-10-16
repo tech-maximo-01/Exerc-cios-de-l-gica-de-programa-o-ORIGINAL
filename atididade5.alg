@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função :
+algoritmo "MÃ©dia do aluno"
+// FunÃ§Ã£o :Calcula a mÃ©dia das trÃªs notas de um aluno.
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 i, soma: inteiro
 inicio
@@ -12,6 +12,7 @@ Se i % 2 = 0 entao
 soma <- soma + i
 FimSe
 FimPara
-escreval("A soma dos números pares entre 1 e 100 é: ", soma)
-// Seção de Comandos 
+escreval("A soma dos nÃºmeros pares entre 1 e 100 Ã©: ", soma)
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
