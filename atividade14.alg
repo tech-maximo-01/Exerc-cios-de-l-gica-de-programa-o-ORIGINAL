@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Maior nÃºmero entre dois valores"
+// FunÃ§Ã£o :LÃª dois nÃºmeros diferentes e informa qual Ã© o maior
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 a, b, resto: inteiro
 inicio
@@ -11,6 +11,7 @@ leia(a)
 escreva("Digite o segundo valor: ")
 leia(b)
 resto <- a % b
-escreval("O resto da divisão é: ", resto)
-// Seção de Comandos 
+escreval("O resto da divisÃ£o Ã©: ", resto)
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
