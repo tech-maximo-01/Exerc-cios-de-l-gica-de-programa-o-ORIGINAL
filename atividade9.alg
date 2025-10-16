@@ -1,15 +1,15 @@
-algoritmo "semnome"
-// Função :
+algoritmo "DepÃ³sito com rendimento"
+// FunÃ§Ã£o :Mostra o valor de um depÃ³sito apÃ³s um mÃªs com 0,70% de juros
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  i, j, num, contPrimos, divisores: inteiro
 
 inicio
 contPrimos <- 0
 Para i de 1 ate 20 faca
-escreva("Digite o ", i, "º número: ")
+escreva("Digite o ", i, "Âº nÃºmero: ")
 leia(numero)
 divisores <- 0
 Para j de 1 ate num faca
@@ -21,7 +21,7 @@ Se divisores = 2 entao
 contPrimos <- contPrimos + 1
 FimSe
 FimPara
-escreval("Quantidade de números primos digitados: ", contPrimos)
+escreval("Quantidade de nÃºmeros primos digitados: ", contPrimos)
 Fimalgoritmo
 
 
@@ -31,5 +31,6 @@ Fimalgoritmo
 
 
 
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
