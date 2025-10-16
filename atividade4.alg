@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// FunÁ„o :
+algoritmo "Sal√°rio do vendedor"
+// Fun√ß√£o :Calcula o sal√°rio final com base no sal√°rio fixo e 15% de comiss√£o sobre as vendas
 // Autor :
 // Data : 29/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 i, quantidadeAzul: inteiro
 nome, cor: caractere
@@ -18,5 +18,6 @@ quantidadeAzul <- quantidadeAzul + 1
 FimSe
 FimPara
 escreval("Quantidade de carros azuis: ", quantidadeAzul)
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
