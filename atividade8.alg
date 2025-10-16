@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função :
+algoritmo "ConversÃ£o de moedas"
+// FunÃ§Ã£o :Converte dÃ³lares em reais com base na cotaÃ§Ã£o informada.
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  i: inteiro
 inicio
@@ -11,5 +11,6 @@ Se i % 7 = 5 entao
 escreval(i)
 FimSe
 FimPara
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
