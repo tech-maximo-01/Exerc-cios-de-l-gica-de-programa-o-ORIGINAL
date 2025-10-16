@@ -1,25 +1,26 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Comparar dois nÃºmeros"
+// FunÃ§Ã£o :Verifica se dois nÃºmeros sÃ£o iguais ou diferentes e mostra qual Ã© o maior
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
   num1, num2: real
 inicio
-   escreva("Digite o primeiro número: ")
+   escreva("Digite o primeiro nÃºmero: ")
    leia(num1)
-   escreva("Digite o segundo número: ")
+   escreva("Digite o segundo nÃºmero: ")
    leia(num2)
 
    se (num1 = num2) entao
-      escreval("Os números são iguais.")
+      escreval("Os nÃºmeros sÃ£o iguais.")
    senao
-      escreval("Os números são diferentes.")
+      escreval("Os nÃºmeros sÃ£o diferentes.")
       se (num1 > num2) entao
-         escreval("O primeiro número (", num1, ") é maior que o segundo (", num2, ").")
+         escreval("O primeiro nÃºmero (", num1, ") Ã© maior que o segundo (", num2, ").")
       senao
-         escreval("O segundo número (", num2, ") é maior que o primeiro (", num1, ").")
+         escreval("O segundo nÃºmero (", num2, ") Ã© maior que o primeiro (", num1, ").")
       fimse
    fimse
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
