@@ -1,12 +1,14 @@
-algoritmo "semnome"
-// Função :
+algoritmo "NÃºmero por extenso"
+// FunÃ§Ã£o :LÃª um nÃºmero de 1 a 5 e mostra ele escrito por extenso. Caso contrÃ¡rio, mostra â€œnÃºmero invÃ¡lidoâ€
+
+27. Desconto por tipo de combustÃ­vel:
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 num: inteiro
 inicio
-escreval("Digite um número de 1 a 5: ")
+escreval("Digite um nÃºmero de 1 a 5: ")
    leia(num)
 
    escolha num
@@ -15,13 +17,14 @@ escreval("Digite um número de 1 a 5: ")
       caso 2
          escreval("Dois")
       caso 3
-         escreval("Três")
+         escreval("TrÃªs")
       caso 4
          escreval("Quatro")
       caso 5
          escreval("Cinco")
       outrocaso
-         escreval("Número inválido!")
+         escreval("NÃºmero invÃ¡lido!")
    fimescolha
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
