@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// FunÁ„o :
+algoritmo "Presta√ß√µes sem juros"
+// Fun√ß√£o :Divide o valor da compra em cinco parcelas iguais
 // Autor :
 // Data : 29/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
  nome: caractere
  salarioFixo, vendas, comissao, salarioFinal: real
@@ -10,7 +10,7 @@ inicio
 escreva("Digite o nome do vendedor: ")
    leia(nome)
 
-   escreva("Digite o sal·rio fixo: ")
+   escreva("Digite o sal√°rio fixo: ")
    leia(salarioFixo)
 
    escreva("Digite o total de vendas efetuadas: ")
@@ -20,6 +20,7 @@ escreva("Digite o nome do vendedor: ")
    salarioFinal <- salarioFixo + comissao
 
    escreval("Vendedor: ", nome)
-   escreval("Sal·rio final do mÍs: R$", salarioFinal:0:2)
-// SeÁ„o de Comandos 
+   escreval("Sal√°rio final do m√™s: R$", salarioFinal:0:2)
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
