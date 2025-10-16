@@ -1,15 +1,15 @@
-algoritmo "semnome"
-// Fun��o :
+algoritmo "Salário líquido do funcionário"
+// Função :Calcula o salário líquido de um funcionário considerando idade e sexo para definir abono.
 // Autor :
 // Data : 13/10/2025
-// Se��o de Declara��es 
+// Seção de Declarações 
 var
 nome: caractere
    sexo: caractere
    idade: inteiro
    salario, abono, salario_liquido: real
 inicio
- escreva("Digite o nome do funcion�rio: ")
+ escreva("Digite o nome do funcionário: ")
    leia(nome)
 
    escreva("Digite o sexo (M/F): ")
@@ -18,7 +18,7 @@ inicio
    escreva("Digite a idade: ")
    leia(idade)
 
-   escreva("Digite o sal�rio fixo: R$ ")
+   escreva("Digite o salário fixo: R$ ")
    leia(salario)
 
    // Verificando o abono de acordo com o sexo e idade
@@ -40,9 +40,10 @@ inicio
 
    escreval("")
    escreval("Nome: ", nome)
-   escreval("Sal�rio l�quido: R$ ", salario_liquido:0:2)
+   escreval("Salário líquido: R$ ", salario_liquido:0:2)
 
 
 
-// Se��o de Comandos 
+// Seção de Comandos 
 fimalgoritmo
+
