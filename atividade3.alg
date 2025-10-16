@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// FunÁ„o :
+algoritmo "Consumo m√©dio"
+// Fun√ß√£o :Calcula quantos km o carro faz por litro de combust√≠vel
 // Autor :
 // Data : 29/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 altura: real
    i, contAltos: inteiro
@@ -23,8 +23,9 @@ contAltos <- contAltos + 1
 FimSe
 FimPara
 media <- somaAlturas / 8
-escreval("A maior altura do grupo È: ", maior:0:2, " metros")
-escreval("A altura mÈdia È: ", media:0:2, " metros")
+escreval("A maior altura do grupo √©: ", maior:0:2, " metros")
+escreval("A altura m√©dia √©: ", media:0:2, " metros")
 escreval("Quantidade de pessoas com mais de 2m: ", contAltos)
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
