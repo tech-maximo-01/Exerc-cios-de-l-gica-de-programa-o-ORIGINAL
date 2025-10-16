@@ -1,15 +1,15 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Soma de dois nÃºmeros"
+// FunÃ§Ã£o :LÃª dois nÃºmeros e mostra a soma deles
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  i, num, maior: inteiro
 inicio
 maior <- 0
 
    Para i de 1 ate 10 faca
-      escreva("Digite o ", i, "º número: ")
+      escreva("Digite o ", i, "Âº nÃºmero: ")
       leia(num)
 
       Se num > maior entao
@@ -17,6 +17,7 @@ maior <- 0
       FimSe
    FimPara
 
-   escreval("O maior número é: ", maior)
-// Seção de Comandos 
+   escreval("O maior nÃºmero Ã©: ", maior)
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
