@@ -1,13 +1,13 @@
-algoritmo "semnome"
-// Função :
+algoritmo "NÃºmeros entre 10 e 150"
+// FunÃ§Ã£o :LÃª 80 nÃºmeros e conta quantos estÃ£o entre 10 e 150
 // Autor :
 // Data : 30/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 x, num, intervalo: inteiro
 inicio
 para x de 1 ate 80 faca
-     escreva("Digite um número: ")
+     escreva("Digite um nÃºmero: ")
      se num >= 10 entao
         se num <= 150 entao
            intervalo <- intervalo + 1
@@ -15,7 +15,8 @@ para x de 1 ate 80 faca
      fimse
 fimpara
 
-escreval("Ao total, foram digitados",intervalo,"números no intervalo entre 10 e 150")
+escreval("Ao total, foram digitados",intervalo,"nÃºmeros no intervalo entre 10 e 150")
 
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
