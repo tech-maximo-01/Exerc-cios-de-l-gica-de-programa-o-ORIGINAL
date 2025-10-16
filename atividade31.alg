@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Ordem crescente"
+// FunÃ§Ã£o :LÃª trÃªs nÃºmeros distintos e mostra em ordem crescente
 // Autor :
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  a, b, c, temp: inteiro
 
@@ -29,5 +29,6 @@ b <- c
 c <- temp
    fimse
 escreval("Ordem crescente: ", a, ", ", b, ", ", c)
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
