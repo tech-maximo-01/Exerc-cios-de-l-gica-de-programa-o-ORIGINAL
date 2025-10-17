@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Peso ideal"
+// FunÃ§Ã£o :LÃª o nome, sexo, altura e idade e calcula o peso ideal da pessoa conforme suas caracterÃ­sticas.
 // Autor :
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nome: caractere
 sexo: caractere
@@ -22,6 +22,7 @@ escreva("Nome: ")
       peso_ideal <- (62.1 * altura) - 44.7
    fimse
 
-   escreval(nome, ", seu peso ideal é: ", peso_ideal:0:2, " kg")
-// Seção de Comandos 
+   escreval(nome, ", seu peso ideal Ã©: ", peso_ideal:0:2, " kg")
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
