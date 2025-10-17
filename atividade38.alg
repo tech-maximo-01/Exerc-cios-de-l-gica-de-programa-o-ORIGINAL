@@ -1,20 +1,21 @@
-algoritmo "semnome"
-// FunÁ„o :
+algoritmo "M√©dia ponderada"
+// Fun√ß√£o :Calcula a m√©dia final de um estudante considerando as notas do laborat√≥rio, avalia√ß√£o semestral e exame final com pesos diferentes
 // Autor :
 // Data : 14/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 lab, sem, exame, media: real
 inicio
-escreva("Nota do laboratÛrio: ")
+escreva("Nota do laborat√≥rio: ")
 leia(lab)
-escreva("Nota da avaliaÁ„o semestral: ")
+escreva("Nota da avalia√ß√£o semestral: ")
 leia(sem)
 escreva("Nota do exame final: ")
 leia(exame)
 
 media <- ((lab * 2) + (sem * 3) + (exame * 5)) / 10
 
-escreval("MÈdia final: ", media:0:2)
-// SeÁ„o de Comandos 
+escreval("M√©dia final: ", media:0:2)
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
