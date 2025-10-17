@@ -1,15 +1,15 @@
-algoritmo "semnome"
-// FunÁ„o :
+algoritmo "Sal√°rio do professor"
+// Fun√ß√£o :Calcula o sal√°rio de um professor com base no n√∫mero de horas/aula e no n√≠vel (1, 2 ou 3), que define o valor pago por hora.
 // Autor :
 // Data : 14/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
  nivel, horas: inteiro
  salario: real
 inicio
-escreva("Digite o nÌvel do professor (1, 2 ou 3): ")
+escreva("Digite o n√≠vel do professor (1, 2 ou 3): ")
   leia(nivel)
-escreva("Digite o n˙mero de horas/aula: ")
+escreva("Digite o n√∫mero de horas/aula: ")
    leia(horas)
 
 se nivel = 1 entao
@@ -21,12 +21,13 @@ salario <- horas * 17
 se nivel = 3 entao
 salario <- horas * 25
          senao
-escreval("NÌvel inv·lido!")
+escreval("N√≠vel inv√°lido!")
 salario <- 0
          fimse
       fimse
    fimse
 
-escreval("Sal·rio: R$ ", salario:0:2)
-// SeÁ„o de Comandos 
+escreval("Sal√°rio: R$ ", salario:0:2)
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
