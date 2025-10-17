@@ -1,13 +1,13 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Conta de luz"
+// FunÃ§Ã£o :Calcula o valor da conta de luz de acordo com o tipo de cliente (residÃªncia, comÃ©rcio ou indÃºstria) e o consumo em kWh
 // Autor :
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  tipo: inteiro
  kw, valor: real
 inicio
-escreva("Tipo de cliente (1-Residência, 2-Comércio, 3-Indústria): ")
+escreva("Tipo de cliente (1-ResidÃªncia, 2-ComÃ©rcio, 3-IndÃºstria): ")
 leia(tipo)
 escreva("Consumo em KW/h: ")
 leia(kw)
@@ -22,5 +22,6 @@ valor <- kw * 1.29
    fimse
 escreval("Valor da conta: R$ ", valor:0:2)
 
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
