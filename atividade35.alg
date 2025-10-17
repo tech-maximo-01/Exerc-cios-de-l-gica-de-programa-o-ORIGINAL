@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// Função :
+algoritmo "ClassificaÃ§Ã£o de nadador"
+// FunÃ§Ã£o :Classifica um nadador conforme a idade nas categorias Infantil A, Infantil B, Juvenil A, Juvenil B ou SÃªnior. Mostra mensagem se estiver fora da faixa
 // Autor :
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  idade: inteiro
 inicio
@@ -22,7 +22,7 @@ escreva("Idade do nadador: ")
                escreval("Juvenil B")
             senao
                se (idade >= 18) e (idade <= 25) entao
-                  escreval("Sênior")
+                  escreval("SÃªnior")
                senao
                   escreval("Idade fora da faixa")
                fimse
@@ -30,5 +30,6 @@ escreva("Idade do nadador: ")
           fimse
       fimse
    fimse
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
