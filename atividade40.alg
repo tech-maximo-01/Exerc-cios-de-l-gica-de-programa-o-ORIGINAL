@@ -1,8 +1,10 @@
-algoritmo "semnome"
-// Função :
+algoritmo "ategoria de Seguro"
+// FunÃ§Ã£o :lÃª nome, idade e grupo de risco de uma pessoa e determina sua categoria de seguro com base na idade e ocupaÃ§Ã£o.
+Somente pessoas entre 17 e 70 anos podem adquirir o seguro.
+Se estiver fora dessa faixa, mostra mensagem dizendo que nÃ£o pode fazer o seguro
 // Autor :
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nome: caractere
 idade, grupo: inteiro
@@ -35,5 +37,6 @@ escreval(nome," - Cat ", grupo+6)
          fimse
       fimse
    fimse
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
