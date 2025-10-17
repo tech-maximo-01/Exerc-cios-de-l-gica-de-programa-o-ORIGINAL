@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// FunÁ„o :
+algoritmo "Classifica√ß√£o de Estudantes"
+// Fun√ß√£o :Calcula a nota final (m√©dia) e mostra a classifica√ß√£o conforme a tabela
 // Autor :
 // Data : 14/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
  nome: caractere
  matricula: inteiro
@@ -10,7 +10,7 @@ var
 inicio
 escreva("Nome do aluno: ")
 leia(nome)
-escreva("MatrÌcula: ")
+escreva("Matr√≠cula: ")
 leia(matricula)
 escreva("Nota 1: ")
 leia(n1)
@@ -21,24 +21,25 @@ leia(n3)
 
 media <- (n1 + n2 + n3) / 3
 
-escreval("MÈdia final: ", media:0:2)
+escreval("M√©dia final: ", media:0:2)
 
 se (media >= 8) entao
-escreval("ClassificaÁ„o: A")
+escreval("Classifica√ß√£o: A")
    senao
 se (media >= 7) entao
-escreval("ClassificaÁ„o: B")
+escreval("Classifica√ß√£o: B")
       senao
 se (media >= 6) entao
-escreval("ClassificaÁ„o: C")
+escreval("Classifica√ß√£o: C")
          senao
 se (media >= 5) entao
-escreval("ClassificaÁ„o: D")
+escreval("Classifica√ß√£o: D")
             senao
-escreval("ClassificaÁ„o: R")
+escreval("Classifica√ß√£o: R")
             fimse
          fimse
       fimse
    fimse
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
